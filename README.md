@@ -16,13 +16,12 @@ Note that running this script will log any other sessions out of the web UI so s
    pip install -r requirements.txt
    ```
    
-3. Edit dr-cam.py and set the IP of the car and the password
+3. Edit dr-cam.py and set the IP of the car and the password.
 
 4. run it!
-
-```
-python ./dr-cam.py
-```
+    ```
+    python ./dr-cam.py
+    ```
 
 Hit Esc to exit.
 
