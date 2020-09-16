@@ -39,8 +39,8 @@ if __name__ == "__main__":
             print("Video Connected!")
 
             if FULL_SCREEN:
-            cv2.namedWindow("Deepracer camera stream", cv2.WND_PROP_FULLSCREEN)
-            cv2.setWindowProperty("Deepracer camera stream", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+                cv2.namedWindow("Deepracer camera stream", cv2.WND_PROP_FULLSCREEN)
+                cv2.setWindowProperty("Deepracer camera stream", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 
             bytes = bytes()
             for chunk in video_stream.iter_content(chunk_size=1024):
